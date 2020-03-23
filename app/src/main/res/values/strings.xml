@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hermit Tracker</string>
+    <string name="thumbnail_placeholder">Thumbnail</string>
+    <string name="vertical_ellipsis">&#8942;</string>
+    <string name="youtube_api_quota">Unfortunately, we have run out of quota for the YouTube API. Try again tomorrow.</string>
+    <string name="video_mark_watched">Mark as watched</string>
+</resources>
