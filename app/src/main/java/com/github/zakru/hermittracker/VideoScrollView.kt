@@ -61,7 +61,7 @@ class VideoScrollView(context: Context, attributeSet: AttributeSet) : ScrollView
                 }
 
                 view.findViewById<TextView>(R.id.title_view).text = video.title
-                view.findViewById<TextView>(R.id.channel_title_view).text = video.uploader.ChannelName
+                view.findViewById<TextView>(R.id.channel_title_view).text = video.uploader.DisplayName
 
                 view.findViewById<TextView>(R.id.options_button).setOnClickListener {
                     val popup = PopupMenu(context, it)
